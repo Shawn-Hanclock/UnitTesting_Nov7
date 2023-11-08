@@ -3,22 +3,21 @@ public class Teacher
     //instance variables
     String name;
     String subject;
-    double height;
+    String nickname;
     int roomNum;
 
     //empty constructor
     public Teacher() {
         this.name = "";
         this.subject = "";
-        this.height = 0;
         this.roomNum = 0;
     }
 
     //full constructor
-    public Teacher(String name, String subject, double height, int roomNum) {
+    public Teacher(String name, String subject, String nickname, int roomNum) {
         this.name = name;
         this.subject = subject;
-        this.height = height;
+        this.nickname = nickname;
         this.roomNum = roomNum;
     }
 
@@ -37,11 +36,12 @@ public class Teacher
         this.subject = subject;
     }
 
-    public double getHeight() {
-        return height;
+    public String getNickname() {
+        return nickname;
     }
-    public void setHeight(double height) {
-        this.height = height;
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public int getRoomNum() {
