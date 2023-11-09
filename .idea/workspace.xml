@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc091183-b644-4b5b-b698-ddb0996e4896" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TeacherTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc091183-b644-4b5b-b698-ddb0996e4896" name="Changes" comment="fixed a few teacher tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +30,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2XrcNhVB86CArmv5irjd2homW9Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,6 +51,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-18",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -103,6 +103,15 @@
       <option name="presentableId" value="Default" />
       <updated>1699390603235</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed a few teacher tests">
+      <option name="closed" value="true" />
+      <created>1699509301526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699509301527</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed a few teacher tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a few teacher tests" />
   </component>
 </project>
