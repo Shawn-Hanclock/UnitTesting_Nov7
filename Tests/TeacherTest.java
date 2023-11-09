@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TeacherTest {
     String str = "";
-
     Pattern charUpper = Pattern.compile("[A-Z]");
     Pattern letter = Pattern.compile("[A-Za-z]");
     Pattern letters = Pattern.compile("[A-Za-z]*");
@@ -21,25 +20,25 @@ class TeacherTest {
     @Test
     void nickNameIsEmpty() {
         str = computer.getNickname();
-        assertTrue(str.length() < 1);
+        assertTrue(str.isEmpty());
     }
     @Test
     void nickNameIsEmptyFalse() {
         computer.setNickname("Rio");
         str = computer.getNickname();
-        assertFalse(str.length() < 1);
+        assertFalse(str.isEmpty());
     }
     @Test
     void nickNameIsChar() {
         computer.setNickname("R");
         str = computer.getNickname();
-        assertTrue(str.length() == 1);
+        assertEquals(str.length(), 1);
     }
     @Test
     void nickNameIsCharFalse() {
         computer.setNickname("Rio");
         str = computer.getNickname();
-        assertFalse(str.length() == 1);
+        assertNotEquals(str.length(), 1);
     }
     @Test
     void nickNameLetterIsCaps() {
@@ -93,7 +92,7 @@ class TeacherTest {
     void nicknameIsUpperFirstFalse() {
         computer.setNickname("rio");
         str = computer.getNickname();
-        assertTrue(str.matches( lettersFirstUpper + ""));
+        assertFalse(str.matches( lettersFirstUpper + ""));
     }
     @Test
     void nicknameIsUpperFirstDLast() {

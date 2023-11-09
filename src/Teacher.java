@@ -10,6 +10,7 @@ public class Teacher
     public Teacher() {
         this.name = "";
         this.subject = "";
+        this.nickname = "";
         this.roomNum = 0;
     }
 
