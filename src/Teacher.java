@@ -1,54 +1,39 @@
 public class Teacher
 {
     //instance variables
-    String name;
-    String subject;
+    String email;
     String nickname;
-    int roomNum;
+    String roomNum;
 
-    //empty constructor
+    //default constructor
     public Teacher() {
-        this.name = "";
-        this.subject = "";
+        this.email = "";
         this.nickname = "";
-        this.roomNum = 0;
+        this.roomNum = "";
     }
-
     //full constructor
-    public Teacher(String name, String subject, String nickname, int roomNum) {
-        this.name = name;
-        this.subject = subject;
+    public Teacher(String subject, String nickname, String roomNum) {
+        this.email = subject;
         this.nickname = nickname;
         this.roomNum = roomNum;
     }
-
     //getters and setter
-    public String getName() {
-        return name;
+    public String getEmail() {
+        return email;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setEmail(String email) {
+        this.email = email;
     }
-
-    public String getSubject() {
-        return subject;
-    }
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
-
     public String getNickname() {
         return nickname;
     }
-
     public void setNickname(String nickname) {
         this.nickname = nickname;
     }
-
-    public int getRoomNum() {
+    public String getRoomNum() {
         return roomNum;
     }
-    public void setRoomNum(int roomNum) {
+    public void setRoomNum(String roomNum) {
         this.roomNum = roomNum;
     }
 }
